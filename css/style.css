@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.users_container {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.users_container > div {
+background-color: lightslategray;
+width: 200px;
+height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
